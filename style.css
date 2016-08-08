@@ -1,0 +1,13 @@
+.gamePiece {
+	height:75%;
+	width:75%;
+	border-radius:50%;
+}
+
+.boardCell {
+	height:100px;
+	width:100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
