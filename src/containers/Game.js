@@ -22,7 +22,7 @@ export default class Game extends Component {
 				<h1 className="ui centered header">React Checkers</h1>
 				<Board/>
 				<h2 className="ui right aligned header">
-					<i className="github link icon" href="https://github.com/zmaybury/react-checkers"/>
+					<i className="ui github link icon" href="https://github.com/zmaybury/react-checkers" target="_blank" onClick={()=> { var win = window.open("https://github.com/zmaybury/react-checkers", '_blank');win.focus();}}/>
 				</h2>
 			</div>
 		);
